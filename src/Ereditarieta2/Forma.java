@@ -1,13 +1,9 @@
 package Ereditarieta2;
 
-public class Forma {
+public abstract class Forma {
 
-    public void calcolaArea() {
-        System.out.println("Area della forma generica");
-    }
+    public abstract double calcolaArea();
 
     @Override
-    public String toString() {
-        return "Forma{}";
-    }
+    public abstract String toString();
 }

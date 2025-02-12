@@ -31,9 +31,8 @@ public class Rettangolo extends Forma {
 
     // Override del metodo calcolaArea per calcolare l'area del rettangolo
     @Override
-    public void calcolaArea() {
-        double area = base * altezza;
-        System.out.println("Area del rettangolo: " + area); // Restituisce il valore dell'area
+    public double calcolaArea() {
+        return base * altezza;
     }
 
     @Override
