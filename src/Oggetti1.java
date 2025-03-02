@@ -6,7 +6,7 @@ Nel main dichiarare un oggetto di tipo Studentee. */
 
 public class Oggetti1 {
     public static void main(String[] args) {
-        Studentee Studentee1 = new Studentee("Mario", "Rossi", 12345);
+        Studente Studentee1 = new Studente("Mario", "Rossi", 12345);
 
         System.out.println("Lo Studentee è: " + Studentee1);
 
@@ -14,12 +14,12 @@ public class Oggetti1 {
     }
 }
 
-class Studentee {
+class Studente {
     private String nome;
     private String cognome;
     private int identificativo;
 
-    public Studentee(String nome, String cognome, int identificativo) {
+    public Studente(String nome, String cognome, int identificativo) {
         this.nome = nome;
         this.cognome = cognome;
         this.identificativo = identificativo;
